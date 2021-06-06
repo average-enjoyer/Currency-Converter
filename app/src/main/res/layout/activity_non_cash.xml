@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/usd"
+    android:orientation="vertical"
+    tools:context=".NonCashActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_main" />
+
+    <TextView
+        android:id="@+id/header_choose_non_cash_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/USD"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light-justify"
+        android:padding="20dp"
+        android:text="@string/header_choose_non_cash"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/USD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/EUR"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickNonCashUSD"
+        android:text="@string/USD_string" />
+
+    <Button
+        android:id="@+id/EUR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="onClickNonCashEUR"
+        android:text="@string/EUR_string" />
+
+    <Button
+        android:id="@+id/RUR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EUR"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickNonCashRUR"
+        android:text="@string/RUR_string" />
+
+    <Button
+        android:id="@+id/BTC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RUR"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickNonCashBTC"
+        android:text="@string/BTC_string" />
+
+</RelativeLayout>

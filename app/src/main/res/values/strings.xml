@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="main_header">Exchage rate</string>
+    <string name="by_privat_bank">powered by Private Bank</string>
+    <string name="current_p_rate">Actual exchange rate in your pocket</string>
+    <string name="cash">Cash exchange rate</string>
+    <string name="non_cash">Non-cash exchange rate</string>
+    <string name="header_choose_non_cash">Choose the exchange rate you want to know.</string>
+    <string name="USD_string">US dollar</string>
+    <string name="EUR_string">Euro</string>
+    <string name="RUR_string">Russian ruble</string>
+    <string name="BTC_string">Bitcoin</string>
+    <string name="calculator_string">Calculator</string>
+    <string name="action_share">Share</string>
+    <string name="UAH_to_USD_string">UAH to [currency]</string>
+    <string name="buy_string">Buy:</string>
+    <string name="sell_string">Sell:</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="sale_radiobutton_string">Sale</string>
+    <string name="buy_radiobutton_string">Buy</string>
+    <string name="currency1_edit_text">currency1</string>
+    <string name="uah_string">UAH</string>
+    <string name="reverse_string">Reverse</string>
+    <string name="convert_string">Convert</string>
+    <string name="share_result_string">Share result</string>
+</resources>
